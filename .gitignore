@@ -1,0 +1,28 @@
+# 本地配置与凭证
+.env
+cookies*.txt
+_cookies*
+*.cookie
+data/
+
+# 下载产物
+downloads/
+*.part
+*.ytdl
+*.info.json
+*.vtt
+*.srt
+*.mp4
+*.mkv
+*.webm
+*.mp3
+*.m4a
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store

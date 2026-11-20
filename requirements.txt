@@ -1,0 +1,13 @@
+# YouTube 下载核心
+yt-dlp>=2025.1
+
+# YouTube 2025+ 的 JS challenge（n / signature）求解器；
+# 还需要本机安装 Node.js 或 Deno 作为 JS runtime（见 docs/WARP.md）
+yt-dlp-ejs>=0.8.0
+
+# yt-dlp 走 socks5:// 代理必须（否则 --proxy socks5://... 会报 missing dependency）
+PySocks>=1.7.1
+
+# 合并音视频 / 转 mp3 需要系统 ffmpeg（不在 pip 内）：
+#   Debian/Ubuntu: sudo apt install -y ffmpeg
+#   Windows:       https://www.gyan.dev/ffmpeg/builds/
