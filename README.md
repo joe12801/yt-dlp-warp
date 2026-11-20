@@ -27,7 +27,7 @@ WARP 官方客户端的 **proxy 模式**只在本地开一个 SOCKS5 端口，�
 ## 快速开始
 
 ```bash
-git clone https://github.com/joe12803/yt-dlp-warp.git
+git clone https://github.com/joe12801/yt-dlp-warp.git
 cd yt-dlp-warp
 python -m pip install -r requirements.txt
 cp .env.example .env
